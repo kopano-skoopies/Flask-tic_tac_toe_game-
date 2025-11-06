@@ -4,4 +4,4 @@ from game import app
 
 @app.route("/")
 def home():
-    return "hi game"
+    return render_template("game.html")
